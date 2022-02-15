@@ -1,0 +1,11 @@
+1644403490970	geckodriver	INFO	Listening on 127.0.0.1:57232
+1644403494033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57233" "-no-remote" "-profile" "C:\\Users\\COMPI_~1\\AppData\\Local\\Temp\\rust_mozprofileO8tkv4"
+1644403494819	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\compi_000\\AppData\\Local\\Temp\\rust_mozprofileO8tkv4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57233/devtools/browser/a3bfdbe3-9dd6-43ca-a111-db0d1921f012
+1644403499922	Marionette	INFO	Listening on port 57238
+1644403500430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+1644403512282	Marionette	INFO	Stopped listening on port 57238
+console.error: "Could not write session state file " (new Error("IOUtils: Shutting down and refusing additional I/O tasks", (void 0), 106)) "DOMException@resource://gre/modules/PromiseWorker.jsm:106:18\npostMessage@resource://gre/modules/PromiseWorker.jsm:342:55\nobserve@resource://gre/modules/AsyncShutdown.jsm:575:16\n"
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
